@@ -536,6 +536,7 @@ img {
         -ms-flex-direction: column;
             flex-direction: column;
     cursor: pointer;
+    background-color: #ffffff;
   }
   .menu-button__line {
     width: 16px;
