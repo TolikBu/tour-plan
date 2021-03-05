@@ -496,7 +496,8 @@ img {
     padding-bottom: 30px;
   }
   .navbar__search {
-    margin: auto;
+    margin-left: 48px;
+    width: 340px;
   }
   .navbar-menu {
     padding-top: 20px;
@@ -510,7 +511,7 @@ img {
     font-weight: 400;
   }
   .search__input {
-    min-width: 318px;
+    min-width: 340px;
     padding-right: 85px;
   }
 }
