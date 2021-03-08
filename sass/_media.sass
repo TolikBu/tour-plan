@@ -50,7 +50,7 @@
         height: 1px
         background-color: $text-color
   .stars 
-    flex-basis: content
+    flex-basis: auto
   .hotel
     &-name 
       flex-basis: 100%
@@ -71,9 +71,12 @@
   .logo
     width: 99px
 @media (max-width: 320px)
+  .hotel
+    padding: 0
   .container 
     width: 88%
   .navbar
+    padding-bottom: 10px
     &-top 
       padding-top: 23px
       padding-bottom: 22px
