@@ -485,7 +485,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 18px 0;
+  padding: 20px 0;
   margin: 0;
   list-style: none;
 }
@@ -497,7 +497,7 @@ img {
 
 .breadcrump-list__item:not(:last-child)::after {
   content: "/";
-  margin-right: 4px;
+  margin-right: 3px;
 }
 
 .breadcrump-list__link {
@@ -593,13 +593,15 @@ img {
 }
 
 .rating__counter {
+  font-weight: bold;
   font-size: 14px;
   line-height: 18px;
 }
 
 .rating__counter-sup {
+  font-weight: bold;
   font-size: 10px;
-  ine-height: 13px;
+  line-height: 13px;
 }
 
 @media (max-width: 1200px) {
@@ -721,7 +723,7 @@ img {
     width: 88%;
   }
   .navbar {
-    padding-bottom: 10px;
+    padding-bottom: 4px;
   }
   .navbar-top {
     padding-top: 23px;
