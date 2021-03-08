@@ -666,6 +666,7 @@ img {
   .stars {
     -ms-flex-preferred-size: auto;
         flex-basis: auto;
+    margin-right: 10px;
   }
   .hotel-name {
     -ms-flex-preferred-size: 100%;
