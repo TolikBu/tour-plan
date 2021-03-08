@@ -561,9 +561,6 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
 }
@@ -724,6 +721,11 @@ img {
   .navbar-top {
     padding-top: 23px;
     padding-bottom: 22px;
+  }
+  .stars {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 /*# sourceMappingURL=style.css.map */
