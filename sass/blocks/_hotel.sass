@@ -24,7 +24,11 @@
     font-size: 12px
     line-height: 15px
 .stars
+  display: flex
+  justify-content: space-between
   flex-basis: 100%
+  &__item:not(:last-child)
+    margin-right: 2px
 .offer 
   font-size: 10px
   line-height: 13px
