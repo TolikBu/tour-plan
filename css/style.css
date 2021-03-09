@@ -450,6 +450,7 @@ img {
   width: 65px;
   height: 100%;
   border: none;
+  outline: none;
   background-color: #EC1F46;
 }
 
