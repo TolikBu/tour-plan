@@ -727,7 +727,7 @@ img {
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
-  line-height: 33px;
+  line-height: 28px;
 }
 
 .booking__per-room {
@@ -778,7 +778,7 @@ img {
 
 .booking__heading {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 18px;
   line-height: 25px;
 }
@@ -799,6 +799,8 @@ img {
 
 .booking__num {
   margin-left: 8px;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .booking__button {
@@ -1002,6 +1004,19 @@ img {
   }
   .slider {
     height: 180px;
+  }
+  .slider-button {
+    width: 12px;
+    height: 12px;
+    background-size: 4px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .slider-button--next {
+    right: 6px;
+  }
+  .slider-button--prev {
+    left: 6px;
   }
   .booking {
     padding: 28px 23px 23px 23px;
