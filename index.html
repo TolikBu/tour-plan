@@ -228,8 +228,8 @@
             </button>
           </div>
           <!-- /.booking -->
-          <div class="map">
-            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A05b853793c7f58db0aa87d0aa2014b5ca60e42ab6b1cff630907a4ac88a12a2a&amp;source=constructor" width="100%" height="213" frameborder="0"></iframe>
+          <div id="map" width="100%" height="213" class="map">
+            <!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A05b853793c7f58db0aa87d0aa2014b5ca60e42ab6b1cff630907a4ac88a12a2a&amp;source=constructor" width="100%" height="213" frameborder="0"></iframe> -->
           </div>
           <!-- /.map -->
           </div>
@@ -242,5 +242,17 @@
     <!-- /.hotel -->
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=f4598978-b4ec-4f7e-b687-e51d7fcdfff4&lang=ru_RU" type="text/javascript">
+    type="text/javascript">
+    </script>
+    <script type="text/javascript">
+        ymaps.ready(init);
+        function init(){
+            var myMap = new ymaps.Map("map", {
+                center: [55.76, 37.64],
+                zoom: 7
+            });
+        }
+    </script>
   </body>
 </html>
