@@ -135,41 +135,40 @@
         </div>
         <!-- /.hotel-info -->
         <div class="hotel-grid">
-          <div class="slider hotel__slider">
             <!-- Slider main container -->
-            <div class="swiper-container">
+            <div class="swiper-container hotel-slider hotel__slider">
               <!-- Additional required wrapper -->
               <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide">
+                <div class="swiper-slide hotel-slider__item">
                   <img
                     class="swiper-slide__img"
                     src="./img/slide.jpg"
                     alt="slide"
                   />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide hotel-slider__item">
                   <img
                     class="swiper-slide__img"
                     src="./img/slide-2.jpg"
                     alt="slide"
                   />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide hotel-slider__item">
                   <img
                     class="swiper-slide__img"
                     src="./img/slide-3.jpg"
                     alt="slide"
                   />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide hotel-slider__item">
                   <img
                     class="swiper-slide__img"
                     src="./img/slide-4.jpg"
                     alt="slide"
                   />
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide hotel-slider__item">
                   <img
                     class="swiper-slide__img"
                     src="./img/slide-5.jpg"
@@ -179,12 +178,10 @@
               </div>
 
               <!-- If we need navigation buttons -->
-              <button class="slider-button slider-button--prev"></button>
-              <button class="slider-button slider-button--next"></button>
+              <button class="hotel-slider__button hotel-slider__button--prev"></button>
+              <button class="hotel-slider__button hotel-slider__button--next"></button>
             </div>
             <!-- /.swiper-container -->
-          </div>
-          <!-- /.slider -->
           <div class="hotel-right">
             <div class="booking">
               <div class="booking__info">
@@ -243,17 +240,173 @@
           <span class="newsletter-title__strong">Newsletter</span>
         </h2>
         <form action="#" class="subscribe newsletter__subscribe">
-            <input
-              type="text"
-              class="subscribe__input"
-              placeholder="Your email address"
-            />
-            <button class="subscribe__button">Send</button>
-          </form>
+          <input
+            type="text"
+            class="subscribe__input"
+            placeholder="Your email address"
+          />
+          <button class="subscribe__button">Send</button>
+        </form>
       </div>
       <!-- /.newsletter-title -->
     </section>
     <!-- /.newsletter -->
+    <section class="reviews">
+      <div class="container">
+        <h2 class="reviews__title">What people think about us</h2>
+        <div class="swiper-container reviews-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="reviews-slider__item">
+                <div class="reviews-slider__profile">
+                  <img
+                    src="./img/slider-avatar.jpeg"
+                    alt="photo: Megan Fox"
+                    class="reviews-slider__avatar"
+                  />
+                  <h3 class="reviews-slider__username">Megan Fox</h3>
+                  <span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
+                  <div class="reviews-slider__rating">
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                  </div>
+                  <!-- /.rating -->
+                </div>
+                <!-- /.reviews-slider__profil -->
+                <p class="reviews-slider__text">
+                  It was very nice hotel with cleanliness. Staff behavior was good and polite. They welcome us very well. Issue was only that Lift was not in working and we were allotted to 3rd floor and amenities articles were in corner of gallery which were giving bad feeling. Breakfast was good and support of the staff was also very nice. Location is not good as per atmosphere, it is very nearby most of the popular places but self location in a narrow street is not good. Overall it was a good experience and could recommend. 
+                </p>
+                <!-- /.reviews-slider__text -->
+              </div>
+              <!-- /.reviews-slider__item -->
+            </div>
+            <!-- /.swiper-slide -->
+            <div class="swiper-slide">
+              <div class="reviews-slider__item">
+                <div class="reviews-slider__profile">
+                  <img
+                    src="./img/Brian-Johnson-sings.jpg"
+                    alt="photo: Brain Johnson"
+                    class="reviews-slider__avatar"
+                  />
+                  <h3 class="reviews-slider__username">Brain Johnson</h3>
+                  <span class="reviews-slider__date">Stayed 15 May, 2009</span>
+                  <div class="reviews-slider__rating">
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                  </div>
+                  <!-- /.rating -->
+                </div>
+                <!-- /.reviews-slider__profil -->
+                <p class="reviews-slider__text">
+                  It was very nice hotel with cleanliness. Staff behavior was good and polite. They welcome us very well. Issue was only that Lift was not in working and we were allotted to 3rd floor and amenities articles were in corner of gallery which were giving bad feeling. Breakfast was good and support of the staff was also very nice. Location is not good as per atmosphere, it is very nearby most of the popular places but self location in a narrow street is not good. Overall it was a good experience and could recommend. 
+                </p>
+                <!-- /.reviews-slider__text -->
+              </div>
+              <!-- /.reviews-slider__item -->
+            </div>
+            <!-- /.swiper-slide -->
+            <div class="swiper-slide">
+              <div class="reviews-slider__item">
+                <div class="reviews-slider__profile">
+                  <img
+                    src="./img/big.jpg"
+                    alt="photo: Notorious BIG"
+                    class="reviews-slider__avatar"
+                  />
+                  <h3 class="reviews-slider__username">Notorious BIG</h3>
+                  <span class="reviews-slider__date">Stayed 02 Sep, 1991</span>
+                  <div class="reviews-slider__rating">
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                  </div>
+                  <!-- /.rating -->
+                </div>
+                <!-- /.reviews-slider__profil -->
+                <p class="reviews-slider__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sit officiis harum! Eum, ad ipsam. Laudantium consectetur, natus harum distinctio reiciendis esse at dolorem ea sapiente nesciunt enim deleniti amet? Praesentium ipsum suscipit vel porro possimus pariatur neque accusamus maxime labore culpa facilis eligendi, sit, perferendis magni quasi obcaecati tempora placeat rerum atque architecto dicta laudantium? 
+                </p>
+                <!-- /.reviews-slider__text -->
+              </div>
+              <!-- /.reviews-slider__item -->
+            </div>
+            <!-- /.swiper-slide -->
+            <div class="swiper-slide">
+              <div class="reviews-slider__item">
+                <div class="reviews-slider__profile">
+                  <img
+                    src="./img/2pac.jpg"
+                    alt="photo: 2 Pac"
+                    class="reviews-slider__avatar"
+                  />
+                  <h3 class="reviews-slider__username">2 Pac</h3>
+                  <span class="reviews-slider__date">Stayed 01 Jan, 1989</span>
+                  <div class="reviews-slider__rating">
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                  </div>
+                  <!-- /.rating -->
+                </div>
+                <!-- /.reviews-slider__profil -->
+                <p class="reviews-slider__text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam eius pariatur velit quo reprehenderit animi illo optio corporis magni ab repellendus possimus sequi perferendis tempora aspernatur, sint asperiores voluptatibus quasi? Ullam expedita iure voluptas rerum dolorem velit. Possimus, minus repudiandae. 
+                </p>
+                <!-- /.reviews-slider__text -->
+              </div>
+              <!-- /.reviews-slider__item -->
+            </div>
+            <!-- /.swiper-slide -->
+            <div class="swiper-slide">
+              <div class="reviews-slider__item">
+                <div class="reviews-slider__profile">
+                  <img
+                    src="./img/Eddie_Cochran.jpg"
+                    alt="photo: Eddi Cochrane"
+                    class="reviews-slider__avatar"
+                  />
+                  <h3 class="reviews-slider__username">Eddi Cochrane</h3>
+                  <span class="reviews-slider__date">Stayed 04 Jun, 1969</span>
+                  <div class="reviews-slider__rating">
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                    <img src="./img/Star.svg" alt="star" class="stars__item" />
+                  </div>
+                  <!-- /.rating -->
+                </div>
+                <!-- /.reviews-slider__profil -->
+                <p class="reviews-slider__text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae nobis placeat sint officia similique illum? Ipsa quidem iusto natus impedit deserunt, voluptatibus totam ipsum itaque molestias, maxime velit quos laudantium. 
+                </p>
+                <!-- /.reviews-slider__text -->
+              </div>
+              <!-- /.reviews-slider__item -->
+            </div>
+            <!-- /.swiper-slide -->
+          </div>
+          <!-- /.swiper-wrapper -->
+          <button class="reviews-slider__button reviews-slider__button--prev"></button>
+          <button class="reviews-slider__button reviews-slider__button--next"></button>
+        </div>
+        <!-- /.swiper-container -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.reviews -->
+
     <script src="https://api-maps.yandex.ru/2.1/?apikey=f4598978-b4ec-4f7e-b687-e51d7fcdfff4&lang=ru_RU"></script>
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
