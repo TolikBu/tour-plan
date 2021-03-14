@@ -1075,7 +1075,7 @@ button {
 }
 
 .activities {
-  padding: 60px 0 90px 0;
+  padding: 42px 0 90px 0;
 }
 
 .activities__title {
@@ -1085,6 +1085,7 @@ button {
   line-height: 30px;
   text-transform: uppercase;
   margin-bottom: 57px;
+  margin-top: 8px;
 }
 
 .activities-wrapper {
@@ -1275,7 +1276,7 @@ button {
   }
   .card {
     width: 340px;
-    height: 230px;
+    height: 255px;
   }
 }
 
@@ -1514,6 +1515,18 @@ button {
   }
   .activities {
     padding-top: 40px;
+  }
+  .activities__card:nth-child(2) {
+    margin-bottom: 28px;
+  }
+  .activities__title {
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 5px;
+    margin-bottom: 36px;
+  }
+  .card {
+    height: 255px;
   }
 }
 /*# sourceMappingURL=style.css.map */
