@@ -1401,6 +1401,10 @@ button {
             transform: translate(50%, 0);
     margin-right: -90px;
   }
+  .activities {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
   .card {
     width: 49%;
     height: 230px;
