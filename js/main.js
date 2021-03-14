@@ -39,3 +39,16 @@ function init() {
     zoom: 7,
   });
 };
+
+// $(document).scroll(function () {
+//   var pos = $(window).scrollTop();
+//   $(".newsletter").css("background-image", pos * 0.7 + "px");
+// });
+
+// $(window).on("load resize scroll", function () {
+//   $(".parallax").parlx({
+//     speed: 0.3,
+//     mobile: true,
+//     direction: "vertical",
+//   });
+// });
