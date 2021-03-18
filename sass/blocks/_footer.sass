@@ -37,7 +37,7 @@
       padding-top: 12px
     &-form
       grid-column: span 2
-      margin-bottom: 75px
+      margin-bottom: 80px
   &__form
     display: flex
     align-items: center
@@ -100,7 +100,7 @@
     font-size: 12px
     line-height: 15px
   &__massege
-    height: 120px
+    height: 123px
     background-color: #fff
     border-radius: 4px
     padding: 18px 23px
@@ -129,19 +129,27 @@
     font-size: 12px
     line-height: 15px
     color: $footer-text-color  
-.footer-bottom
-  // display: grid
-  grid-column: 2 / 4
-  &__links
-    display: grid
-  &__link
-    font-style: normal
-    font-weight: normal
-    font-size: 12px
-    line-height: 15px
-    color: $footer-text-color
-    text-decoration: none
-  &__pay
-    grid-column: 4 / 5
+.footer
+  &-bottom
+    grid-column:  2 / 4
+    width: 696px
+    margin-left: 128px
+    &__links
+      // width: 100%
+      display: flex
+      align-items: center
+      justify-content: space-between
+      flex-start: end
+    &__link
+      min-width: 283px
+      display: flex
+      align-items: center
+      justify-content: space-between
+      &-item
+        font-style: normal
+        font-weight: normal
+        font-size: 12px
+        line-height: 15px
+        color: $footer-text-color
+        text-decoration: none
     
-
