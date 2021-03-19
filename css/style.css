@@ -1057,6 +1057,7 @@ button {
   grid-row: 1 / 2;
   grid-column: 1;
   align-self: center;
+  padding-top: 30px;
 }
 
 .footer__logo {
