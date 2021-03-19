@@ -15,17 +15,16 @@ const hotelSlider = new Swiper(".hotel-slider", {
   },
 });
 
-
 const reviewsSlider = new Swiper(".reviews-slider", {
   // Optional parameters
   loop: true,
-  
+
   // Navigation arrows
   navigation: {
     nextEl: ".reviews-slider__button--next",
     prevEl: ".reviews-slider__button--prev",
   },
-  
+
   keyboard: {
     enabled: true,
     onlyInViewport: false,
@@ -38,7 +37,7 @@ function init() {
     center: [55.76, 37.64],
     zoom: 7,
   });
-};
+}
 
 // $(document).scroll(function () {
 //   var pos = $(window).scrollTop();
@@ -52,3 +51,11 @@ function init() {
 //     direction: "vertical",
 //   });
 // });
+
+var menuButton = document.querySelector(".menu-button");
+menuButton.addEventListener("click", function () {
+  console.log("Click");
+  document
+    .querySelector(".navbar-bottom")
+    .classList.toggle("navbar-bottom--visible");
+});
