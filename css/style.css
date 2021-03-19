@@ -1474,6 +1474,7 @@ button {
     bottom: 0;
     bottom: 0;
     top: 78px;
+    padding-top: 30px;
   }
   .navbar-bottom--visible {
     display: block;
