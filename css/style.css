@@ -1456,6 +1456,10 @@ button {
     left: 0;
     z-index: 99;
   }
+  .navbar__search, .navbar__user {
+    margin: auto;
+    width: 245px;
+  }
   .navbar__search--mobile_hidden, .navbar__user--mobile_hidden {
     display: none;
   }
@@ -1465,9 +1469,6 @@ button {
   .navbar__user {
     flex-direction: column;
     justify-content: center;
-  }
-  .navbar__search {
-    margin-left: 0;
   }
   .navbar-bottom {
     display: none;
