@@ -38,7 +38,7 @@
       padding-top: 12px
     &-form
       grid-column: span 2
-      margin-bottom: 80px
+      margin-bottom: 72px
   &__form
     display: flex
     align-items: center
@@ -133,15 +133,16 @@
     color: $footer-text-color  
 .footer
   &-bottom
-    grid-column:  2 / 4
-    width: 696px
+    display: grid
+    grid-column:  2 / 5
+    max-width: 696px
     margin-left: 128px
     &__links
       // width: 100%
       display: flex
       align-items: center
       justify-content: space-between
-      flex-start: end
+      // flex-start: end
     &__link
       min-width: 283px
       display: flex
@@ -154,4 +155,7 @@
         line-height: 15px
         color: $footer-text-color
         text-decoration: none
+    &__pay
+      right: 0
+
     
