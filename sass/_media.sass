@@ -169,9 +169,16 @@
         right: 0
         left: 0
         z-index: 99
-    &__search, &__user
+    &__search
       margin: auto
       width: 245px
+      &--mobile
+        &_hidden
+          display: none
+        &_visible
+          display: flex
+          margin-bottom: 19px
+    &__user
       &--mobile
         &_hidden
           display: none
@@ -187,17 +194,24 @@
       right: 0
       bottom: 0
       bottom: 0
-      top: 78px
-      padding-top: 30px
+      top: 70px
+      padding-top: 17px
+      overflow: auto
       &--visible
         display: block
     &-menu
       flex-direction: column
+      overflow: auto
+      padding-top: 15px
       &__item
-        margin-bottom: 20px
+        margin-bottom: 15px
         &--mobile
           &_visible
             display: block
+            margin-bottom: 16px
+  .search
+    &__input 
+      min-width: 245px
   .menu
     &-button
       display: flex
@@ -220,6 +234,7 @@
         color: $light
         margin-left: 0
         margin-top: 10px
+        margin-bottom: 10px
   .stars
     flex-basis: auto
     margin-right: 15px
