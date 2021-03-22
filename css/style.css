@@ -1248,6 +1248,45 @@ button {
   right: 0;
 }
 
+.thankyou {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.thankyou__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.thankyou__name {
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.thankyou__discription {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.thankyou__button {
+  min-width: 125px;
+  min-height: 45px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  border-radius: 4px;
+  background-color: #EC1F46;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
