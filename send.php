@@ -28,12 +28,12 @@ try {
     $mail->Debugoutput = function($str, $level) {$GLOBALS['status'][] = $str;};
 
     // Настройки вашей почты
-    $mail->Host       = 'mail.tolikwu.ru'; // SMTP сервера вашей почты
-    $mail->Username   = 'tolikwu@tolikwu.ru'; // Логин на почте
-    $mail->Password   = 'tolik1506'; // Пароль на почте
+    $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
+    $mail->Username   = 'anatoliybukharov15@gmail.com'; // Логин на почте
+    $mail->Password   = 'anatoliybukharov15789'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
-    $mail->setFrom('tolikwu@tolikwu.ru', 'tolikwu@tolikwu.ru'); // Адрес самой почты и имя отправителя
+    $mail->setFrom('anatoliybukharov15@gmail.com', 'Анатолий Бухаров'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
     $mail->addAddress('tolikelement@gmail.com');  
@@ -57,9 +57,9 @@ try {
     $mail->Subject = $title;
     $mail->Body = $body;    
 
-// Проверяем отравленность сообщения
-if ($mail->send()) {$result = "success";} 
-else {$result = "error";}
+    // Проверяем отравленность сообщения
+    if ($mail->send()) {$result = "success";} 
+    else {$result = "error";}
 
 } catch (Exception $e) {
     $result = "error";
@@ -67,4 +67,4 @@ else {$result = "error";}
 }
 
 // Отображение результата
-echo json_encode(["result" => $result, "resultfile" => $rfile, "status" => $status]);
+header('Location: thankyou.html');
