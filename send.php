@@ -7,7 +7,7 @@ require 'phpmailer/Exception.php';
 // Переменные, которые отправляет пользователь
 $name = $_POST['name'];
 $phone = $_POST['phone'];
-$massage = $_POST['massage'];
+$message = $_POST['message'];
 
 // Формирование самого письма
 $title = "Новое обращение Best Tour Plan";
@@ -24,7 +24,7 @@ try {
     $mail->isSMTP();   
     $mail->CharSet = "UTF-8";
     $mail->SMTPAuth   = true;
-    $mail->SMTPDebug = 2;
+    // $mail->SMTPDebug = 2;
     $mail->Debugoutput = function($str, $level) {$GLOBALS['status'][] = $str;};
 
     // Настройки вашей почты

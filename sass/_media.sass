@@ -155,6 +155,11 @@
       margin-left: 0
       &__links
         width: 100%
+  .modal
+    &__dialog
+      min-width: 320px
+      max-width: 478px
+      padding: 33px 33px
 @media (max-width: 762px)
   .container
     max-width: 576px
@@ -340,6 +345,14 @@
         flex-start: start
       &__link
         margin-bottom: 10px
+  .modal
+    margin-top: 20px
+    &__dialog
+      min-width: 90%
+      height: 90%
+      top: 50%
+      padding: 20px 25px
+      overflow: auto
 @media (max-width: 576px)
   .logo
     width: 99px
@@ -412,6 +425,14 @@
         flex-wrap: wrap
       &__link
         margin-bottom: 10px
+  .modal
+    &__dialog
+      height: 90%
+      top: 0
+      transform: translate(-50%, 5%)
+      overflow: auto
+    &__button
+      margin-bottom: 10px
 @media (max-width: 320px)
   body
     padding-top: 69px
