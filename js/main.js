@@ -59,7 +59,6 @@ $(document).ready(function () {
     console.log("Click");
     $(".navbar-bottom").toggleClass("navbar-bottom--visible");
   });
-  
 
   var modalButton = $("[data-toggle=modal]");
   var closeModalButton = $(".modal__close");
@@ -78,6 +77,13 @@ $(document).ready(function () {
     var modalDialog = $(".modal__dialog");
     modalOverlay.removeClass("modal__overlay--visible");
     modalDialog.removeClass("modal__dialog--visible");
-  };
-  
+  }
+  // $(document).on('keydown', function(event){
+  //   if(event.which === 27){
+  //     elements.removeClass('modal__overlay--visible');
+  //     var home = $.Event("keydown", {keyCode: 36});
+  //       $(document).trigger(home);
+  //       event.preventDefault();
+  //       return false;
+  //   }
 });
