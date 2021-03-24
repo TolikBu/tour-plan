@@ -101,6 +101,8 @@ $(document).ready(function () {
     });
   });
 
+  $('input[name="phone"]').mask("+7 (000) 000 0000");
+
   // $(document).on('keydown', function(event){
   //   if(event.which === 27){
   //     elements.removeClass('modal__overlay--visible');
