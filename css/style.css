@@ -1459,6 +1459,54 @@ button {
   }
 }
 
+@media (min-width: 992px) {
+  .search__button:hover {
+    width: 72px;
+    margin-left: 5px;
+    transition: 0.5s;
+  }
+  .user__name:hover {
+    font-weight: 800;
+    margin-left: 15px;
+  }
+  .navbar-menu__link:hover {
+    color: #EC1F46;
+    transition: 0.3s;
+  }
+  .booking__button:hover {
+    font-weight: 800;
+    background-color: #ffffff;
+    color: #EC1F46;
+    transition: 0.3s;
+  }
+  .subscribe__button:hover {
+    font-weight: 800;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  .card__button:hover {
+    font-weight: 800;
+    background-color: #ffffff;
+    color: #EC1F46;
+    transition: 0.3s;
+  }
+  .footer__item-link:hover {
+    color: #ffffff;
+  }
+  .footer__link:hover {
+    color: #ffffff;
+  }
+  .footer__button:hover {
+    font-weight: 900;
+    background-color: #ffffff;
+    color: #EC1F46;
+    transition: 0.3s;
+  }
+  .footer-bottom__link-item:hover {
+    color: #ffffff;
+  }
+}
+
 @media (max-width: 992px) {
   .container, .newsletter-wrapper {
     max-width: 700px;

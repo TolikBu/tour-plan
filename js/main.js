@@ -95,7 +95,8 @@ $(document).ready(function () {
         },
         subscribe: {
           required: "Email очень важен",
-          email: "Your email address must be in the format of name@domain.com",
+          subscribe:
+            "Your email address must be in the format of name@domain.com",
         },
       },
     });
