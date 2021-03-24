@@ -42,7 +42,6 @@ $(document).ready(function () {
 
   var menuButton = $(".menu-button");
   menuButton.on("click", function () {
-    console.log("Click");
     $(".navbar-bottom").toggleClass("navbar-bottom--visible");
   });
 
@@ -52,7 +51,7 @@ $(document).ready(function () {
   closeModalButton.on("click", closeModal);
 
   function openModal() {
-    console.log($(this).attr("data-href"));
+    $(this).attr("data-href");
     var targetModal = $(this).attr("data-href");
     $(targetModal).find(".modal__overlay").addClass("modal__overlay--visible");
     $(targetModal).find(".modal__dialog").addClass("modal__dialog--visible");
@@ -69,18 +68,18 @@ $(document).ready(function () {
       errorClass: "invalid",
       messages: {
         name: {
-          required: "Укажиет Ваше имя",
-          minlength: "Имя должно быт ьне короче 2 букв",
+          required: "Indicate your name",
+          minlength: "The name must be at least 2 letters",
         },
         email: {
-          required: "Email очень важен",
+          required: "Email very important",
           email: "Your email address must be in the format of name@domain.com",
         },
         phone: {
-          required: "Телефон обязателен",
+          required: "Phone is required",
         },
         subscribe: {
-          required: "Email очень важен",
+          required: "Email very important",
           subscribe:
             "Your email address must be in the format of name@domain.com",
         },
