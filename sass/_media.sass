@@ -371,7 +371,7 @@
     padding-bottom: 60px
   .card
     width: 49%
-    height: 230px // 255?
+    height: 230px 
   .card:nth-child(1)
     order: -4
   .card:nth-child(3)
@@ -403,7 +403,6 @@
         grid-row: 6
         grid-column: 1
       &-form
-        // max-width: 576px 
         grid-row: 7
         grid-column: 1
     &__form
@@ -421,12 +420,12 @@
       &__link
         margin-bottom: 10px
   .modal
-    margin-top: 20px
     &__dialog
       min-width: 90%
+      height: 80%
       max-height: 487px
-      top: 25%
-      padding: 20px 25px
+      top: 50%
+      padding: 39px 20px 31px 20px
       overflow: auto
 @media (max-width: 576px)
   .logo
@@ -481,10 +480,7 @@
         margin-bottom: 10px
   .modal
     &__dialog
-      height: 90%
-      top: 0
-      transform: translate(-50%, 5%)
-      overflow: auto
+      transform: translate(-50%, -50%)
     &__button
       margin-bottom: 10px
 @media (max-width: 320px)
