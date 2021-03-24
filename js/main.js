@@ -40,20 +40,6 @@ $(document).ready(function () {
     });
   }
 
-  // Скрипт для паралакса
-  // $(document).scroll(function () {
-  //   var pos = $(window).scrollTop();
-  //   $(".newsletter").css("background-image", pos * 0.7 + "px");
-  // });
-
-  // $(window).on("load resize scroll", function () {
-  //   $(".parallax").parlx({
-  //     speed: 0.3,
-  //     mobile: true,
-  //     direction: "vertical",
-  //   });
-  // });
-
   var menuButton = $(".menu-button");
   menuButton.on("click", function () {
     console.log("Click");
@@ -103,13 +89,4 @@ $(document).ready(function () {
   });
 
   $('input[name="phone"]').mask("+7 (000) 000 0000");
-
-  // $(document).on('keydown', function(event){
-  //   if(event.which === 27){
-  //     elements.removeClass('modal__overlay--visible');
-  //     var home = $.Event("keydown", {keyCode: 36});
-  //       $(document).trigger(home);
-  //       event.preventDefault();
-  //       return false;
-  //   }
 });
