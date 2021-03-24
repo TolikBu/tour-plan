@@ -1188,7 +1188,7 @@ button {
   padding-top: 2px;
 }
 
-.footer__item--link {
+.footer__item-link {
   color: #BDBDBD;
   text-decoration: none;
 }
@@ -1201,7 +1201,7 @@ button {
   color: #BDBDBD;
 }
 
-.footer__tel--link {
+.footer__telphone {
   color: #BDBDBD;
   text-decoration: none;
 }

@@ -154,9 +154,7 @@
             </p>
           </div>
           <!-- /.hotel-info__left -->
-          <div
-            class="rating hotel-info__rating"
-          >
+          <div class="rating hotel-info__rating">
             <span class="rating__text">User&nbsp;Rattings</span>
             <span class="rating__counter"
               >4.5/<span class="rating__counter-sup">5</span></span
@@ -280,14 +278,17 @@
           subscribe to our
           <span class="newsletter-title__strong">Newsletter</span>
         </h2>
-        <form action="./send.php" method="POST" class="subscribe newsletter__subscribe form">
+        <form
+          action="./send.php"
+          method="POST"
+          class="subscribe newsletter__subscribe form"
+        >
           <input
             type="text"
             class="subscribe__input"
             placeholder="Your email address"
             name="subscribe"
             required
-            email="Your email address must be in the format of name@domain.com"
           />
           <button class="subscribe__button">Send</button>
         </form>
@@ -496,8 +497,13 @@
               class="card__image"
             />
             <h3 class="card__title">The curious corner of&nbsp;chamarel</h3>
-            <button data-toggle="modal"
-            data-href="#activities-modal" class="card__button">Book Now</button>
+            <button
+              data-toggle="modal"
+              data-href="#activities-modal"
+              class="card__button"
+            >
+              Book Now
+            </button>
           </div>
           <!-- /.card -->
           <div class="card activities__card">
@@ -507,8 +513,13 @@
               class="card__image"
             />
             <h3 class="card__title">Gymkhana club golf course</h3>
-            <button data-toggle="modal"
-            data-href="#activities-modal" class="card__button">Book Now</button>
+            <button
+              data-toggle="modal"
+              data-href="#activities-modal"
+              class="card__button"
+            >
+              Book Now
+            </button>
           </div>
           <!-- /.card -->
           <div class="card activities__card">
@@ -520,8 +531,13 @@
             <h3 class="card__title">
               Tamarind falls hiking trip&nbsp;-&nbsp;full day
             </h3>
-            <button data-toggle="modal"
-            data-href="#activities-modal" class="card__button">Book Now</button>
+            <button
+              data-toggle="modal"
+              data-href="#activities-modal"
+              class="card__button"
+            >
+              Book Now
+            </button>
           </div>
           <!-- /.card -->
           <div class="card activities__card">
@@ -531,8 +547,13 @@
               class="card__image"
             />
             <h3 class="card__title">The blue marine discovery quest</h3>
-            <button data-toggle="modal"
-            data-href="#activities-modal" class="card__button">Book Now</button>
+            <button
+              data-toggle="modal"
+              data-href="#activities-modal"
+              class="card__button"
+            >
+              Book Now
+            </button>
           </div>
           <!-- /.card -->
         </div>
@@ -657,7 +678,7 @@
                 9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United
                 States
               </li>
-              <li class="footer__item footer__item--mb-2 ">
+              <li class="footer__item footer__item--mb-2">
                 <div class="footer__icon-wrapper">
                   <img
                     src="./img/phone-contact.svg"
@@ -666,14 +687,25 @@
                   />
                 </div>
                 <div>
-                  <div class="footer__tel">Tel (business hours) :
-                    <a class="footer__tel--link" href="tel:+73512691500">269 1500</a>
+                  <div class="footer__tel">
+                    Tel (business hours) :
+                    <a class="footer__telphone" href="tel:+73512691500"
+                      >269 1500</a
+                    >
                   </div>
-                  <div class="footer__tel">Tel (hotline) Monday - Saturday:
-                    <a class="footer__tel--link" href="tel:+752566138">52-56-61-38</a> (08:00 am – 20:00 pm)
-                  <divi>
-                  <div class="footer__tel"> Tel (hotline) Sunday:
-                    <a class="footer__tel--link" href="tel:+752566138">52-56-61-38</a> (08:00 am – 14:00 pm)
+                  <div class="footer__tel">
+                    Tel (hotline) Monday - Saturday:
+                    <a class="footer__telphone" href="tel:+752566138"
+                      >52-56-61-38</a
+                    >
+                    (08:00 am – 20:00 pm)
+                  </div>
+                  <div class="footer__tel">
+                    Tel (hotline) Sunday:
+                    <a class="footer__telphone" href="tel:+752566138"
+                      >52-56-61-38</a
+                    >
+                    (08:00 am – 14:00 pm)
                   </div>
                 </div>
               </li>
@@ -685,7 +717,11 @@
                     class="footer__icon"
                   />
                 </div>
-                <a class="footer__item--link" href="mailto:cherly.lawson@example.com">cherly.lawson@example.com</a>
+                <a
+                  class="footer__item-link"
+                  href="mailto:cherly.lawson@example.com"
+                  >cherly.lawson@example.com</a
+                >
               </li>
             </ul>
           </div>
@@ -695,21 +731,21 @@
             <form action="./send.php" method="POST" class="footer__form form">
               <div class="footer__input-group">
                 <input
-                type="text"
-                class="input footer__input"
-                placeholder="Your Full Name*"
-                name="name"
-                required
-              />
+                  type="text"
+                  class="input footer__input"
+                  placeholder="Your Full Name*"
+                  name="name"
+                  required
+                />
               </div>
               <div class="footer__input-group">
                 <input
-                type="tel"
-                class="input footer__input"
-                placeholder="Phone Number*"
-                name="phone"
-                required
-              />
+                  type="tel"
+                  class="input footer__input"
+                  placeholder="Phone Number*"
+                  name="phone"
+                  required
+                />
               </div>
               <textarea
                 class="message footer__message"
