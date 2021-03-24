@@ -78,20 +78,27 @@ $(document).ready(function () {
     modalOverlay.removeClass("modal__overlay--visible");
     modalDialog.removeClass("modal__dialog--visible");
   }
-  $(".modal__form").validate({
-    messages: {
-      name: {
-        required: "Укажиет Ваше имя",
-        minlength: "Имя должно быт ьне короче 2 букв",
+  $(".form").each(function () {
+    $(this).validate({
+      errorClass: "invalid",
+      messages: {
+        name: {
+          required: "Укажиет Ваше имя",
+          minlength: "Имя должно быт ьне короче 2 букв",
+        },
+        email: {
+          required: "Email очень важен",
+          email: "Your email address must be in the format of name@domain.com",
+        },
+        phone: {
+          required: "Телефон обязателен",
+        },
+        subscribe: {
+          required: "Email очень важен",
+          email: "Your email address must be in the format of name@domain.com",
+        },
       },
-      email: {
-        required: "Email очень важен",
-        email: "Your email address must be in the format of name@domain.com",
-      },
-      phone: {
-        required: "Телефон оязателен",
-      },
-    },
+    });
   });
 
   // $(document).on('keydown', function(event){
