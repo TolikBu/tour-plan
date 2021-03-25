@@ -127,9 +127,9 @@
           Our manager will call you in 5 minutes.
         </p>
 
-        <button class="button thankyou__button">
+        <div class="button thankyou__button">
           <a href="./index.html" class="button__text">To the main</a>
-        </button>
+        </div>
 
         <!-- /.thanktou-info -->
       </div>
@@ -205,13 +205,22 @@
           <div class="footer__social-network">
             <h3 class="footer__title footer__title--inline">Social Network</h3>
             <div class="footer__social-links">
-              <a href="#" class="footer__link"
+              <a
+                href="https://ru-ru.facebook.com/"
+                target="_blank"
+                class="footer__link"
                 ><img src="./img/fb.svg" alt="facebook"
               /></a>
-              <a href="#" class="footer__link"
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                class="footer__link"
                 ><img src="./img/yt.svg" alt="youtube"
               /></a>
-              <a href="#" class="footer__link"
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="footer__link"
                 ><img src="./img/inst.svg" alt="instagram"
               /></a>
             </div>
@@ -253,7 +262,7 @@
                 9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United
                 States
               </li>
-              <li class="footer__item footer__item--mb-2 ">
+              <li class="footer__item footer__item--mb-2">
                 <div class="footer__icon-wrapper">
                   <img
                     src="./img/phone-contact.svg"
@@ -262,14 +271,25 @@
                   />
                 </div>
                 <div>
-                  <div class="footer__tel">Tel (business hours) :
-                    <a class="footer__telphone" href="tel:+73512691500">269 1500</a>
+                  <div class="footer__tel">
+                    Tel (business hours) :
+                    <a class="footer__telphone" href="tel:+73512691500"
+                      >269 1500</a
+                    >
                   </div>
-                  <div class="footer__tel">Tel (hotline) Monday - Saturday:
-                    <a class="footer__telphone" href="tel:+752566138">52-56-61-38</a> (08:00 am – 20:00 pm)
-                  <divi>
-                  <div class="footer__tel"> Tel (hotline) Sunday:
-                    <a class="footer__telphone" href="tel:+752566138">52-56-61-38</a> (08:00 am – 14:00 pm)
+                  <div class="footer__tel">
+                    Tel (hotline) Monday - Saturday:
+                    <a class="footer__telphone" href="tel:+752566138"
+                      >52-56-61-38</a
+                    >
+                    (08:00 am – 20:00 pm)
+                  </div>
+                  <div class="footer__tel">
+                    Tel (hotline) Sunday:
+                    <a class="footer__telphone" href="tel:+752566138"
+                      >52-56-61-38</a
+                    >
+                    (08:00 am – 14:00 pm)
                   </div>
                 </div>
               </li>
@@ -281,7 +301,11 @@
                     class="footer__icon"
                   />
                 </div>
-                <a class="footer__item-link" href="mailto:cherly.lawson@example.com">cherly.lawson@example.com</a>
+                <a
+                  class="footer__item-link"
+                  href="mailto:cherly.lawson@example.com"
+                  >cherly.lawson@example.com</a
+                >
               </li>
             </ul>
           </div>
@@ -291,21 +315,22 @@
             <form action="./send.php" method="POST" class="footer__form form">
               <div class="footer__input-group">
                 <input
-                type="text"
-                class="input footer__input"
-                placeholder="Your Full Name*"
-                name="name"
-                required
-              />
+                  type="text"
+                  class="input footer__input"
+                  placeholder="Your Full Name*"
+                  name="name"
+                  required
+                />
               </div>
               <div class="footer__input-group">
                 <input
-                type="tel"
-                class="input footer__input"
-                placeholder="Phone Number*"
-                name="phone"
-                required
-              />
+                  type="tel"
+                  class="input footer__input"
+                  placeholder="Phone Number*"
+                  name="phone"
+                  required
+                  minlength="11"
+                />
               </div>
               <textarea
                 class="message footer__message"
@@ -343,7 +368,7 @@
     <!-- /.footer -->
 
     <script src="https://api-maps.yandex.ru/2.1/?apikey=f4598978-b4ec-4f7e-b687-e51d7fcdfff4&lang=ru_RU"></script>
-    <script src="./js/jquery-3.6.0.min.js"></script>    
+    <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/jquery.validate.min.js"></script>
     <script src="./js/jquery.mask.min.js"></script>

@@ -77,17 +77,13 @@ $(document).ready(function () {
         },
         phone: {
           required: "Phone is required",
-        },
-        subscribe: {
-          required: "Email very important",
-          subscribe:
-            "Your email address must be in the format of name@domain.com",
+          minlength: "The name must be at least 11 letters",
         },
       },
     });
   });
 
   $('input[name="phone"]').mask("+7 (000) 000 0000");
-  
+
   AOS.init();
 });

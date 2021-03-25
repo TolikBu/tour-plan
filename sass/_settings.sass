@@ -4,6 +4,7 @@ body
   font-family: 'Mulish', sans-serif
   background-color: $secondary
   color: $text-color
+  overflow-x: hidden
 .container
   max-width: 1110px
   margin: auto
@@ -36,16 +37,9 @@ button
   background-color: $primary
   border: none
   border-radius: 4px
-.invalid
+label.invalid
   color: $primary
-#subscribe
-  &-error
-    position: absolute
-    top: 58px
-    z-index: 100
-#email
-  &-error
-    flex-basis: 100%
-#name, #phone
-  &-error
-
+  top: -20px
+  left: 23px
+  position: relative
+  font-size: 10px
