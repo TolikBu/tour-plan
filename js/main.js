@@ -32,14 +32,6 @@ $(document).ready(function () {
     },
   });
 
-  ymaps.ready(init);
-  function init() {
-    var myMap = new ymaps.Map("map", {
-      center: [55.15, 61.42],
-      zoom: 7,
-    });
-  }
-
   var menuButton = $(".menu-button");
   menuButton.on("click", function () {
     $(".navbar-bottom").toggleClass("navbar-bottom--visible");
