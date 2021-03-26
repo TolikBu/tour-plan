@@ -73,7 +73,7 @@ $(document).ready(function () {
         },
         email: {
           required: "Email very important",
-          email: "Your email address must be in the format of name@domain.com",
+          email: "Should match the style name@domain.com",
         },
         phone: {
           required: "Phone is required",
@@ -82,9 +82,13 @@ $(document).ready(function () {
       },
     });
   });
-  
-  $('input[name=phone]').mask("+7 (000)-000-0000");
-  
 
-  AOS.init();
+  $("input[name=phone]").mask("+7 (000) 000 0000");
+
+  AOS.init({
+    disable: function () {
+      var maxWidth = 800;
+      return window.innerWidth < maxWidth;
+    },
+  });
 });
