@@ -82,8 +82,9 @@ $(document).ready(function () {
       },
     });
   });
-
-  $('input[name="phone"]').mask("+7 (000) 000 0000");
+  
+  $('input[name=phone]').mask("+7 (000)-000-0000");
+  
 
   AOS.init();
 });

@@ -400,10 +400,9 @@ button {
 }
 
 label {
+  position: relative;
   color: #EC1F46;
   top: -20px;
-  left: 23px;
-  position: relative;
   font-size: 12px;
 }
 
